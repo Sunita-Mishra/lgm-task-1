@@ -655,7 +655,7 @@ opacity: 1;
     background-size: 100% 100%;
 }
 .bt11{
-    background-color:yellow;
+     background-color:  rgba(255, 255, 255, 0.774);
     color: black;
     height: 5vh;
     width: 7vw;
@@ -664,7 +664,7 @@ opacity: 1;
 }
 
 .bt12{
-    background-color: yellow;
+    background-color:  rgba(255, 255, 255, 0.774);
     color: black;
     height: 5vh;
     width: 7vw;
@@ -675,7 +675,7 @@ opacity: 1;
 
 
 .bt13{
-    background-color: yellow;
+    background-color:  rgba(255, 255, 255, 0.774);
     color: black;
     height: 5vh;
     width: 7vw;
@@ -803,7 +803,7 @@ button
 .para p{
     font-weight: bolder;
 }
-@media(max-width:1024px){
+@media(max-width:1050px){
     .manual{
         position: absolute;
         width: 100%;
@@ -1014,20 +1014,20 @@ h5{
     margin-bottom: 2vh;
 }
 .bt11{
-    height: 6vh;
+    height: 4vh;
     width: 15vw;
 }
 .bt12{
-    height: 6vh;
+    height: 4vh;
     width: 15vw;
 }
 .bt13{
-    height: 6vh;
+    height: 4vh;
     width: 15vw;
 }
         }
     
-@media(max-width:500px){
+@media(max-width:600px){
     .manual{
         position: absolute;
         width: 100%;

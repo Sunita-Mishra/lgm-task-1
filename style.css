@@ -1029,10 +1029,9 @@ h5{
             border-radius: 5%;
             border:2px solid white;
             transform: translateY(10vh);
-        
-        font-weight: bolder;
-        height: 5vh;
-    width: 20vw;
+            font-weight: bolder;
+            height: 5vh;
+            width: 20vw;
     
         }
         

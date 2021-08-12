@@ -633,6 +633,9 @@ opacity: 1;
     align-items: center;
     
 }
+.text7 p{
+width: 90%;
+}
 
 
 .img30{
@@ -803,7 +806,7 @@ button
 .para p{
     font-weight: bolder;
 }
-@media(max-width:1050px){
+@media(max-width:1440px){
     .manual{
         position: absolute;
         width: 100%;
@@ -870,16 +873,16 @@ button
         width: 17.5vw;
     }
     .bt11{
-        height: 7vh;
-        width: 12vw;
+        height: 9vh;
+        width: 8vw;
     }
     .bt12{
-        height: 7vh;
-        width: 12vw;
+        height: 9vh;
+        width: 8vw;
     }
     .bt13{
-        height: 7vh;
-        width: 12vw;
+        height: 9vh;
+        width: 8vw;
     }
     .forms input{
         width: 25vw;
@@ -894,6 +897,20 @@ button
     }
     
 
+}
+@media(max-width:1024px){
+    .bt11{
+        height: 9vh;
+        width: 12vw;
+    }
+    .bt12{
+        height: 9vh;
+        width: 12vw;
+    }
+    .bt13{
+        height: 9vh;
+        width: 12vw;
+    }
 }
 
 @media(max-width:768px){
@@ -1014,15 +1031,15 @@ h5{
     margin-bottom: 2vh;
 }
 .bt11{
-    height: 4vh;
+    height: 8vh;
     width: 15vw;
 }
 .bt12{
-    height: 4vh;
+    height: 8vh;
     width: 15vw;
 }
 .bt13{
-    height: 4vh;
+    height: 8vh;
     width: 15vw;
 }
         }
@@ -1235,11 +1252,11 @@ h3{
     margin-bottom: 5vh;
 }
 .bt11{
-    height: 5vh;
+    height: 8vh;
     width: 30vw;
 }
 .bt12{
-    height: 5vh;
+    height: 8vh;
     width: 30vw;
 }
 .bt13{
@@ -1429,14 +1446,14 @@ width: 23vw;
 } 
 @media(max-width:320px)   {
     .bt11{
-        height: 5vh;
+        height: 9vh;
         width: 33vw;
     }
     .bt12{
-        height: 5vh;
+        height: 9vh;
         width: 33vw;
     }.bt13{
-        height: 5vh;
+        height: 9vh;
         width: 33vw;
     }
 }

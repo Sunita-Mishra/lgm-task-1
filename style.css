@@ -658,32 +658,38 @@ width: 90%;
     background-size: 100% 100%;
 }
 .bt11{
-     background-color:  rgba(255, 255, 255, 0.774);
+    background-color:  rgba(255, 255, 255, 0.774);
+    padding: 5px 10px;
+    border: none;
+    font-weight: 500;
     color: black;
-    height: 5vh;
-    width: 7vw;
-    font-weight: bolder;
-    margin-bottom: 2vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 100ms linear;
 }
 
 .bt12{
     background-color:  rgba(255, 255, 255, 0.774);
+    padding: 5px 10px;
+    border: none;
+    font-weight: 500;
     color: black;
-    height: 5vh;
-    width: 7vw;
-    font-weight: bolder;
-    margin-bottom: 2vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 100ms linear;
 
 }
 
 
 .bt13{
     background-color:  rgba(255, 255, 255, 0.774);
+    padding: 5px 10px;
+    border: none;
+    font-weight: 500;
     color: black;
-    height: 5vh;
-    width: 7vw;
-    font-weight: bolder;
-    margin-bottom: 2vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 100ms linear;
 }
 
 .contact{
@@ -806,7 +812,8 @@ button
 .para p{
     font-weight: bolder;
 }
-@media(max-width:1440px){
+@media(max-width:1024px){
+    
     .manual{
         position: absolute;
         width: 100%;
@@ -868,22 +875,8 @@ button
         width: 17%;
         transform: translateX(25vw);
     }
-    .img6{
-        height: 20vh;
-        width: 17.5vw;
-    }
-    .bt11{
-        height: 9vh;
-        width: 8vw;
-    }
-    .bt12{
-        height: 9vh;
-        width: 8vw;
-    }
-    .bt13{
-        height: 9vh;
-        width: 8vw;
-    }
+   
+    
     .forms input{
         width: 25vw;
         margin-bottom: 3vh;
@@ -898,20 +891,7 @@ button
     
 
 }
-@media(max-width:1024px){
-    .bt11{
-        height: 9vh;
-        width: 12vw;
-    }
-    .bt12{
-        height: 9vh;
-        width: 12vw;
-    }
-    .bt13{
-        height: 9vh;
-        width: 12vw;
-    }
-}
+
 
 @media(max-width:768px){
     .manual{
@@ -996,10 +976,7 @@ button
             width: 100%;
                
             }
-            .img6{
-            height: 20vh;
-            width: 17.5vw;
-            }
+            
             .signup h1{
                 font-size: 4vw;
             }
@@ -1030,21 +1007,11 @@ h5{
     width:40vw;
     margin-bottom: 2vh;
 }
-.bt11{
-    height: 8vh;
-    width: 15vw;
-}
-.bt12{
-    height: 8vh;
-    width: 15vw;
-}
-.bt13{
-    height: 8vh;
-    width: 15vw;
-}
+
         }
     
-@media(max-width:600px){
+@media(max-width:500px){
+    
     .manual{
         position: absolute;
         width: 100%;
@@ -1233,11 +1200,7 @@ h3{
     width: 100%;
     
 }
-.img6{
-    height: 15vh;
-    width: 17vw;
-    margin-bottom: 2vh;
-}
+
 .signup h1{
     font-size: 9vw;
 }
@@ -1250,18 +1213,6 @@ h3{
 .blog-card{
     width: 100%;
     margin-bottom: 5vh;
-}
-.bt11{
-    height: 8vh;
-    width: 30vw;
-}
-.bt12{
-    height: 8vh;
-    width: 30vw;
-}
-.bt13{
-    height: 5vh;
-    width: 30vw;
 }
 
 
@@ -1444,18 +1395,5 @@ width: 23vw;
 }
 
 } 
-@media(max-width:320px)   {
-    .bt11{
-        height: 9vh;
-        width: 33vw;
-    }
-    .bt12{
-        height: 9vh;
-        width: 33vw;
-    }.bt13{
-        height: 9vh;
-        width: 33vw;
-    }
-}
 
 

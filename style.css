@@ -20,9 +20,7 @@ html
     background-color: black!important;
 }
 .btns{
-    
 background-color:  white;
-
 }
 .slider{
     height: 100vh;
@@ -31,7 +29,6 @@ background-color:  white;
     flex-direction: row;
     overflow: hidden!important;
    background-color: black;
-    
 }
 .slides{
     display: flex;
@@ -55,7 +52,6 @@ font-weight: bolder;
     transform: translateX(30vw);
     
 }
-
 #inner-text1{
     font-size: 1.1vw;
     font-weight: normal;
@@ -75,7 +71,6 @@ font-weight: bolder;
      transform: translateX(30vw);
      
  }
- 
  #inner-text2{
      font-size: 1.1vw;
      font-weight: normal;
@@ -96,15 +91,12 @@ font-weight: bolder;
      transform: translateX(28vw);
      
  }
- 
  #inner-text3{
      font-size: 1.1vw;
      font-weight: normal;
      color:white;
      font-weight: bolder;
  }
-
-
 
 .slides input{
     display: none;
@@ -126,22 +118,18 @@ font-weight: bolder;
     height: 5vh;
     width: 10vw;
 }
-
-
 .b4{
     background-color: white;
     border-radius: 5%;
     border:2px solid white;
     transform: translateY(10vh);
-margin-left: 2%;
-margin-right: 10%;
-color: white;
-font-weight: bolder;
-color: black;
-height: 5vh;
-width: 10vw;
-
-
+    margin-left: 2%;
+    margin-right: 10%;
+    color: white;
+    font-weight: bolder;
+    color: black;
+    height: 5vh;
+    width: 10vw;
 }
 .b5{
     background-color: white;
@@ -152,12 +140,7 @@ width: 10vw;
     font-weight: bolder;
     height: 5vh;
     width: 10vw;
-
-
 }
-
-
-
 .manual{
 position: absolute;
 width: 100%;
@@ -172,8 +155,6 @@ justify-content: center;
     cursor: pointer;
     transition: 1s;
     margin-left: 2vw;
-
-
 }
 .manual-btn:hover{
     background-color: white;
@@ -191,7 +172,6 @@ h1{
     text-align: center;
     margin-top: 10vh;
     font-weight: bolder;
-    
 }
 #Welcome{
     display: flex;
@@ -199,7 +179,6 @@ h1{
     justify-content: center;
     margin-top:5vh ;
     width: 100%;
-    
 }
 .icon1{
     font-size: 15vw;
@@ -210,7 +189,6 @@ h1{
 font-size: 2vw;
 width: 50%;
 text-align: left;
-
 }
 .icon-container
 {
@@ -265,9 +243,7 @@ text-align: left;
     text-align: center;
 }
 
-   
 .bt1{
-   
     background-color: rgb(253, 212, 29);
     color: black;
     font-weight: 500;
@@ -444,23 +420,17 @@ align-items: center;
     border-radius: 50%;
 }
 .icon4{
-    position: absolute;
+position: absolute;
 top: 6vh;
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    width:15vw ;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width:15vw ;
 border-radius: 50%;
 height: 30vh;
 background-color: rgba(0, 0,0, 0.7);
 opacity: 0;
-
 transition:opacity 0.5s linear;
-
-
-
 }
 .icon5{
     color: white;
@@ -469,8 +439,6 @@ transition:opacity 0.5s linear;
 }
 .icon4:hover{
 opacity: 1;
-
-
 }
 .images{
     display: flex;
@@ -507,9 +475,6 @@ opacity: 1;
     display: flex;
     justify-content: center;
 }
-
-
-
 .img6{
     width: 10vw;
     transition:height 1s linear;
@@ -540,7 +505,6 @@ opacity: 1;
 #img12{
     width: 56vw;
 }
-
 .container-3{
     background-color:rgba(209, 209, 209, 0.4);
     width: 100%;
@@ -568,7 +532,6 @@ opacity: 1;
     font-weight: bolder;
     font-size: 3.5vw;
     text-shadow: 3px 3px black;
-
 }
 .signin{
     display: flex;
@@ -586,7 +549,6 @@ opacity: 1;
     width: 80px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
-    
 }
 .signin button:hover{
     background-color: indigo;
@@ -594,35 +556,31 @@ opacity: 1;
     font-weight: bolder;
 }
 .card5{
-    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    
-
 }
 .blog-card{
     width: 32%;
-    background-color: rgb(233, 233, 233);
 }
-.blog-card:hover{
-    background-color: rgb(255, 234, 139);
-    
+.bt11,.bt12,.bt13
+{
+    background-color: rgb(253, 212, 29);
+    color: black;
 }
-.blog-card:hover .bt11{
+.bt11:hover{
     background-color: rgb(129, 33, 197);
     color: white;
 }
-.blog-card:hover .bt12{
+.bt12:hover{
     background-color: rgb(129, 33, 197);
     color: white;
 }
-.blog-card:hover .bt13{
+.bt13:hover{
     background-color: rgb(129, 33, 197);
     color: white;
 }
-
 .card5 p{
     text-align: center;
 }
@@ -631,13 +589,10 @@ opacity: 1;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    
 }
 .text7 p{
 width: 90%;
 }
-
-
 .img30{
     height: 30vh;
     background-image: url('images/img40.jpeg');
@@ -649,7 +604,6 @@ width: 90%;
     background-image: url('images/img41.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
 }
 .img32{
     height: 30vh;
@@ -658,7 +612,6 @@ width: 90%;
     background-size: 100% 100%;
 }
 .bt11{
-    background-color:  rgba(255, 255, 255, 0.774);
     padding: 5px 10px;
     border: none;
     font-weight: 500;
@@ -669,7 +622,6 @@ width: 90%;
 }
 
 .bt12{
-    background-color:  rgba(255, 255, 255, 0.774);
     padding: 5px 10px;
     border: none;
     font-weight: 500;
@@ -677,12 +629,8 @@ width: 90%;
     border-radius: 5px;
     margin-bottom: 10px;
     transition: 100ms linear;
-
 }
-
-
 .bt13{
-    background-color:  rgba(255, 255, 255, 0.774);
     padding: 5px 10px;
     border: none;
     font-weight: 500;
@@ -691,17 +639,17 @@ width: 90%;
     margin-bottom: 10px;
     transition: 100ms linear;
 }
-
 .contact{
     margin-top: 5vh;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-    
 }
 .map{
     width: 50%;
+}
+.map p{
+    height: 100%;
 }
 .forms{
     display: flex;
@@ -709,30 +657,27 @@ width: 90%;
     justify-content: flex-start;
     align-items:center;
     width: 50%;
+    padding-bottom: 15px;
 }
 .forms input{
     width: 20vw;
     margin-bottom: 3vh;
     display: flex;
-
     align-items: center;
- 
 }
 .forms button{
-    
     width: 20vw;
+    height: 5vh;
     background-color: indigo;
     color: white;
 }
 h5{
-    
     font-size: 3vw;
 }
 .forms label{
     color: black;
     font-weight: bolder;
     margin-top: 2vh;
-    
 }
 .contacts{
     background-color: rgba(225,225,0,0.5);
@@ -741,26 +686,19 @@ h5{
     height: 20vh;
 }
 #maps{
-    margin-top: 2vh;
     width: 100%!important;
-
+    height: 100%;
 }
 .footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color:white;
-
     flex-wrap: wrap;
-   
 }
-.follow1{
-    
+.follow1{ 
     font-size: 2vw;
     display: flex;
-    
-    
-
 }
 .follow i{
     margin-left: 1vw;
@@ -770,7 +708,6 @@ h5{
 .follow2{
     font-size: 1.7vw;
     margin-left: 0.5vw;
- 
 }
 h6{
     text-align: center;
@@ -778,15 +715,12 @@ h6{
     margin-top: 5vh;
     font-weight: bolder;
     color: black;
-
 }
 .follow{
     display: flex;
     flex-direction: column;
-justify-content: space-between;
+    justify-content: space-between;
     align-items:center;
-    
-    
 }
 
 .address{
@@ -831,16 +765,10 @@ button
             border-radius: 5%;
             border:2px solid white;
             transform: translateY(10vh);
-        
-        
-        font-weight: bolder;
-        height: 6vh;
-        width: 12vw;
-        
+            font-weight: bolder;
+            height: 6vh;
+            width: 12vw;
         }
-        
-        
-    
     #inner-text2{
         font-size: 1.6vw;
         font-weight: normal;
@@ -858,14 +786,8 @@ button
         border-radius: 5%;
         border:2px solid white;
         transform: translateY(10vh);
-        
-        
         height: 6vh;
         width: 12vw;
-        
-        
-    
- 
     }
     .b4{
         height: 6vh;
@@ -875,21 +797,15 @@ button
         width: 17%;
         transform: translateX(25vw);
     }
-   
-    
     .forms input{
         width: 25vw;
         margin-bottom: 3vh;
         display: flex;
-    
         align-items: center;
-     
     }
     .forms button{
         width: 25vw;
     }
-    
-
 }
 
 
@@ -913,19 +829,15 @@ button
         .b1{
             height:5vh;
             width: 15vw;
-
         }
         .b4{
             height:5vh;
             width: 15vw;
-
         }
         .b5{
             height:5vh;
             width: 15vw;
-
         }
-        
         .text3{
             transform: translateX(25vw);
         }
@@ -966,15 +878,11 @@ button
             border-radius: 50%;
         }
         .icon4{
-           
-                width:20vw ;
-            
-            
+            width:20vw ;
             }
             .img10{
             height:auto;
             width: 100%;
-               
             }
             
             .signup h1{
@@ -1032,9 +940,7 @@ h5{
             font-weight: bolder;
             height: 5vh;
             width: 20vw;
-    
         }
-        
         
        .text2 p {
            font-size: 3.5vw;
@@ -1057,13 +963,10 @@ h5{
     font-weight: bolder;
     height: 5vh;
     width: 20vw;
-    
-    
     }
     .text3 p {
         font-size: 3.5vw;
         color: white;
-
     }
  
  #inner-text3{
@@ -1082,11 +985,7 @@ h5{
  font-weight: bolder;
  height: 5vh;
  width: 20vw;
- 
- 
- 
  } 
- 
  .c1{
     display: flex;
     flex-direction: column;
@@ -1107,7 +1006,6 @@ h5{
     width: 51%;
     margin-bottom: 10%;
 }
-
 .card2{
     margin-left: 0%;
 }
@@ -1213,11 +1111,8 @@ h3{
     width: 100%;
     margin-bottom: 5vh;
 }
-
-
 .map{
     width:100%;
-    
 }
 #maps{
     width: 100%!important;
@@ -1241,8 +1136,6 @@ h5{
     align-items: center;
     width: 100%;
     margin-bottom: 4vh;
-    
-    
 }
 h6{
     font-size: 5vw;
@@ -1257,11 +1150,8 @@ h6{
 }
 
 .follow1{
-    
     font-size: 7vw;
     display: flex;
-    
-
 }
 .follow i{
     margin-left: 2vw;
@@ -1270,9 +1160,7 @@ h6{
 .follow2{
     font-size: 5.5vw;
     margin-left: 0.5vw;
- 
 }
-
 } 
 @media(max-width:376px){
     .manual{
